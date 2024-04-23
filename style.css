@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cantainer{
+    background-color: white;
+    color: black;
+    height: 900px;
+    width: 1061px;
+    border: 2px solid gray;
+    border-radius: 8px; 
+    padding: 3rem;  
+}
+.form{
+    font-size: 23px;
+
+}
+.h1{
+    padding: 4px;
+    margin: 3px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.input-element{
+    font-size: 1.3rem;
+    padding: 5px 3px;
+    width: 26rem;
+    display: flex;
+    flex-direction: row;
+}
+label{
+    width: 12rem;
+}
+.button{
+    width: 12rem;
+}
+h1{
+    width: 12rem;
+}
